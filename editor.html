@@ -42,7 +42,7 @@ Page:<input id="page-box" type="text">
         const page = document.getElementById("page-box").value;
         let tail = '';
         if (title !== '' && page !== '') {
-            tail = `<br/>-${title} P${page}`;
+            tail = `<br/><br/>-${title} P${page}`;
         }
         hiddenArea.value = '>' + t2 + tail;
         hiddenArea.select();
